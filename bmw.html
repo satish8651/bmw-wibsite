@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #mainimg{
+            height: 800px;
+            width: 100%;
+            
+           background-image: url(../Assets/bmwmainimg.webp);
+           background-size: 100% 800px;
+            
+        }
+        body{
+            background-color:  rgb(71, 71, 71);
+        }
+        #probuttons{
+            
+            margin-left: 500px ;
+            display: flex;
+            justify-content: space-around;
+            display: ;
+
+        }
+       
+        #navbar{
+            background-color:rgb(71, 71, 71);
+            display: flex;
+            align-items: center;
+            height: 85px;
+            width: 87%;
+            border-bottom: 0.5px solid white; 
+            margin-left: 95px ;
+        }
+        #logo{
+            padding-top: 10px;
+        }
+        #navA{
+            
+            text-decoration: none;
+
+            padding-left: 2.5%;
+            color: white;
+            font-family: "IBM Plex Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:
+            "wdth" 100%;
+        }
+        #navA:hover{
+            text-decoration: underline;
+            text-underline-offset: 32px ;
+            text-decoration-thickness: 3px;
+            text-decoration-color: rgb(26, 83, 182); ;
+        }
+        #navL{
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            /* border: 1px solid red; */
+            text-decoration: none;
+            color: white;
+            font-family: "IBM Plex Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:
+            "wdth" 100;
+        }
+        #callbutton{
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            border-radius: 100%;
+            position: fixed;
+            margin-left: 94%;
+           margin-top: 470px; 
+           display: flex;
+           align-items: center;
+           justify-content: center;
+        }
+        #button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* margin-top: 400px; */
+            margin-left: 100px;
+            height: 50px;
+            width:200px;
+            /* border: 2px solid red; */
+            background-color: rgb(28, 105, 212);
+            border-radius: 2px;
+            font-size: 17px;
+            font-family: "IBM Plex Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:
+            "wdth" 100;
+        }
+        #button:hover{
+            background-color: rgb(26, 83, 182);
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            /* margin-bottom: 100px; */
+        }
+        video{
+           height: 100vh;
+           width: 100vw; 
+        }
+    </style>
+</head>
+<body>
+ <div id="mainimg">
+    <div id="navbar">
+        <a href="" id="navA">All Models</a>
+        <a href="" id="navA">Electric</a>
+        <a href="" id="navA">Visit Online Shop <i class="fa-solid fa-angle-down"></i></a>
+        <a href="" id="navA">More BMW <i  class="fa-solid fa-angle-down"></i></a>
+    
+
+       <div id="probuttons"> <a href="" id="navL">
+           <i class="fa-regular fa-user"></i>       <i class="fa-solid fa-cart-shopping"></i>       <i class="fa-regular fa-heart"></i>       <i class="fa-solid fa-location-dot"></i>                                                                 
+    </a>
+</div>
+   </div>   
+   <div>
+   <img  src="../ASSETS/bnw 02.webp" alt="" > 
+   <div id="button"> <a href="" style=" color: white; text-decoration: none;" >Discover now</a></div>
+   </div>
+    <div id="callbutton"><i class="fa-solid fa-phone"></i></div>
+    <video src="../ASSETS/bmw o3 video.mp4"  autoplay loop muted type="map4" >
+    
+    </video>
+    <div id="button"> <a href="" style=" color: white; text-decoration: none;" >Skip Boring</a></div>
+    <i class="cmp-icon__icon cmp-icon__icon--responsive"></i>
+ </div>
+</body>
+</html>
